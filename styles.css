@@ -1,7 +1,7 @@
 body{
     background-color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
-    display: inline-block;
+    display: inline-block;    
 }
 
 h1{
@@ -33,11 +33,22 @@ p{
     display: block;
     border-style: solid;
     border-color: blue;
+    border-radius: 15px;
 }
 
 #main-menu li{
-    display: inline;
+    display: inline-block;
+    background-color: black;
     margin: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#main-menu li a{
+    text-decoration: none;
+    color: white;
 }
 ol{
     font-size: 22px;
