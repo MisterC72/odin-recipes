@@ -1,6 +1,7 @@
 body{
     background-color: rgb(255, 255, 255);
     font-family: Arial, sans-serif;
+    display: inline-block;
 }
 
 h1{
@@ -24,10 +25,20 @@ p{
 }
 
 #main-menu{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
     font-size: 24px;
     list-style: none;
+    display: block;
+    border-style: solid;
+    border-color: blue;
 }
 
+#main-menu li{
+    display: inline;
+    margin: 10px;
+}
 ol{
     font-size: 22px;
 }
